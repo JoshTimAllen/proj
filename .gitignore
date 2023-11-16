@@ -1,0 +1,14 @@
+# Ignore everything in repository root 
+/*
+
+# Files to not ignore
+!/.gitignore
+
+# Folder to not ignore
+# !/Assets/
+!/ProjectSettings/
+!/iOS Provisioning/
+!/Packages/
+
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+#!/[Aa]ssets/**/*.meta
